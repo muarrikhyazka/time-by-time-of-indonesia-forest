@@ -156,6 +156,12 @@ with c13:
 
 
 
+st.image('png_edited_output/maps_2001-01-01_edited.png')
+st.image('png_edited_output/maps_2022-01-01_edited.png')
+st.image('png_edited_output/maps_2023-01-01_edited.png')
+
+
+
 
 
 
