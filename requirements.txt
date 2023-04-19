@@ -1,0 +1,9 @@
+pandas
+streamlit
+Pillow
+bokeh==2.4.3
+plotly
+pybase64
+nltk
+matplotlib
+seaborn
