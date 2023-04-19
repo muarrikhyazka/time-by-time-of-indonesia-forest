@@ -144,6 +144,14 @@ st.write(
     """
 )
 
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2023-01-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2022-01-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2001-01-01_edited.png')
+
 
 
 
