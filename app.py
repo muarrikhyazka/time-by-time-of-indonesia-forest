@@ -127,6 +127,8 @@ st.write(
     """
 )
 
+st.image('png_edited_output/maps_2000-03-01_edited.png')
+
 
 
 
@@ -136,7 +138,7 @@ st.subheader('Method')
 
 st.subheader('Insight')
 
-st.image('NDVI Indonesia-mini.gif')
+## show gif
 
 st.write(
     """
