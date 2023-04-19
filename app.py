@@ -12,7 +12,7 @@ sns.set()
 import webbrowser
 
 
-title = 'Time by Time Indonesia Vegetation'
+title = 'Time by Time of Indonesia Vegetation'
 
 
 
@@ -138,11 +138,12 @@ st.subheader('Method')
 
 st.subheader('Insight')
 
-## show gif
+## show video
+st.video('https://youtu.be/GdeF5u-j_aM')
 
 st.write(
     """
-    Mostly companies which are needed data person are in Jakarta. Many data job are in big cities in Java. Outside of Java only 2 jobs. There is big gap here.
+    Above is time lapse video to show change of vegetation in Indonesia by monthly from year 2000.
     """
 )
 
