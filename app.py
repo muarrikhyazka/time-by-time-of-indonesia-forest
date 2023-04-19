@@ -115,7 +115,7 @@ st.title(title)
 st.subheader('Business Understanding')
 st.write(
     """
-    As we know, Indonesia has so many fertilized soil and green creatures. I just want to know how is the change of vegetation time by time.
+    As we know, Indonesia has so many fertilized soil and green creatures. I just want to know how is the change of vegetation time by time. In here, we used NDVI or Normalized Difference Vegetation Index.
     """
 )
 
@@ -127,12 +127,52 @@ st.write(
     """
 )
 
+st.write(
+    """
+    The metrics I used is NDVI or Normalized Difference Vegetation Index. And about what NDVI is I took definition from [eos.com](https://eos.com/blog/ndvi-faq-all-you-need-to-know-about-ndvi/)
+    """
+)
+
+st.code('Simply put, NDVI helps to differentiate vegetation from other types of land cover (artificial) and determine its overall state. It also allows to define and visualize vegetated areas on the map as well as detect abnormal changes in the growth process.')
+
+st.write(
+    """
+    Below is the color scale of NDVI. 
+    """
+)
+
+st.image('NDVI_Scale_LDP_rotated.jpg')
+
+st.write(
+    """
+    Move to right or more green will be higher the NDVI, it means the healthier plants.
+    """
+)
+
+
+
+st.write(
+    """
+    Below is the sample of data which has been visualized in map. 
+    """
+)
 st.image('png_edited_output/maps_2000-03-01_edited.png')
 
 
 
 
+
+
+
 st.subheader('Method')
+
+st.write(
+    """
+    I will list down step by step :
+    \n1. Data pulling from [Google Earth Engine API](https://developers.google.com/earth-engine/datasets/catalog).
+    \n2. 
+    """
+)
 
 
 
@@ -143,7 +183,20 @@ st.video('https://youtu.be/GdeF5u-j_aM')
 
 st.write(
     """
-    Above is time lapse video to show change of vegetation in Indonesia by monthly from year 2000.
+    Above is time lapse video to show change of vegetation in Indonesia by monthly from year 2000. Just play and enjoy.
+    """
+)
+
+st.write(
+    """
+    I tried to compare the same month on the latest year, last year, and the oldest year, so we can get the difference or change.
+    """
+)
+
+
+st.write(
+    """
+    **January**
     """
 )
 
@@ -155,11 +208,165 @@ with c12:
 with c13:
     st.image('png_edited_output/maps_2001-01-01_edited.png')
 
+st.write(
+    """
+    **February**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2023-02-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2022-02-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2001-02-01_edited.png')
+
+st.write(
+    """
+    **March**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2023-03-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2022-03-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2001-03-01_edited.png')
+
+st.write(
+    """
+    **April**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-04-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-04-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-04-01_edited.png')
+
+st.write(
+    """
+    **May**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-05-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-05-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-05-01_edited.png')
+
+st.write(
+    """
+    **June**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-06-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-06-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-06-01_edited.png')
+
+st.write(
+    """
+    **July**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-07-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-07-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-07-01_edited.png')
+
+st.write(
+    """
+    **August**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-08-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-08-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-08-01_edited.png')
+
+st.write(
+    """
+    **September**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-09-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-09-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-09-01_edited.png')
+
+st.write(
+    """
+    **October**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-10-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-10-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-10-01_edited.png')
+
+st.write(
+    """
+    **November**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-11-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-11-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-11-01_edited.png')
+
+st.write(
+    """
+    **December**
+    """
+)
+
+c11, c12, c13 = st.columns(3)
+with c11:
+    st.image('png_edited_output/maps_2022-12-01_edited.png')
+with c12:
+    st.image('png_edited_output/maps_2021-12-01_edited.png')
+with c13:
+    st.image('png_edited_output/maps_2000-12-01_edited.png')
 
 
-st.image('png_edited_output/maps_2001-01-01_edited.png')
-st.image('png_edited_output/maps_2022-01-01_edited.png')
-st.image('png_edited_output/maps_2023-01-01_edited.png')
+
+
+
+
 
 
 
@@ -169,5 +376,5 @@ st.image('png_edited_output/maps_2023-01-01_edited.png')
 
 c1, c2 = st.columns(2)
 with c1:
-    st.info('**[Github Repo](https://github.com/muarrikhyazka/data-role-demand-analysis-in-indonesia)**', icon="🍣")
+    st.info('**[Github Repo](https://github.com/muarrikhyazka/time-by-time-of-indonesia-vegetation)**', icon="🍣")
 
