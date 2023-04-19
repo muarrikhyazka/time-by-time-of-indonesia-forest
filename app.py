@@ -170,7 +170,11 @@ st.write(
     """
     I will list down step by step :
     \n1. Data pulling from [Google Earth Engine API](https://developers.google.com/earth-engine/datasets/catalog).
-    \n2. 
+    \n2. Visualize to map.
+    \n3. Screenshot using selenium and iterate per month.
+    \n4. Edit image and add text on image.
+    \n5. Compile all images as video.
+    \n6, Export to gif and mp4.
     """
 )
 
