@@ -111,6 +111,13 @@ with st.sidebar:
 
 st.title(title)
 
+st.write(
+    """
+    \n
+    \n
+    """
+)
+
 
 st.subheader('Business Understanding')
 st.write(
@@ -119,6 +126,12 @@ st.write(
     """
 )
 
+st.write(
+    """
+    \n
+    \n
+    """
+)
 
 st.subheader('Data Understanding')
 st.write(
@@ -161,7 +174,12 @@ st.image('png_edited_output/maps_2000-03-01_edited.png')
 
 
 
-
+st.write(
+    """
+    \n
+    \n
+    """
+)
 
 
 st.subheader('Method')
@@ -174,7 +192,14 @@ st.write(
     \n3. Screenshot using selenium and iterate per month.
     \n4. Edit image and add text on image.
     \n5. Compile all images as video.
-    \n6, Export to gif and mp4.
+    \n6. Export to gif and mp4.
+    """
+)
+
+st.write(
+    """
+    \n
+    \n
     """
 )
 
@@ -214,6 +239,12 @@ with c13:
 
 st.write(
     """
+    Getting closer to the present, Sumatra and Sulawesi archipelago has more area with bad vegetation. But Java and Papua has fewer.
+    """
+)
+
+st.write(
+    """
     **February**
     """
 )
@@ -225,6 +256,12 @@ with c12:
     st.image('png_edited_output/maps_2022-02-01_edited.png')
 with c13:
     st.image('png_edited_output/maps_2023-02-01_edited.png')
+
+st.write(
+    """
+    Overall in 2022 getting better, but on 2023, it is back getting worser.
+    """
+)
 
 st.write(
     """
@@ -242,6 +279,12 @@ with c13:
 
 st.write(
     """
+    Nothing significant change, except on Sumatra archipelago.
+    """
+)
+
+st.write(
+    """
     **April**
     """
 )
@@ -253,6 +296,12 @@ with c12:
     st.image('png_edited_output/maps_2021-04-01_edited.png')
 with c13:
     st.image('png_edited_output/maps_2022-04-01_edited.png')
+
+st.write(
+    """
+    On April, nothing significant change.
+    """
+)
 
 st.write(
     """
@@ -270,6 +319,12 @@ with c13:
 
 st.write(
     """
+    On Sulawesi archipelago, it has more area with bad vegetation.
+    """
+)
+
+st.write(
+    """
     **June**
     """
 )
@@ -281,6 +336,12 @@ with c12:
     st.image('png_edited_output/maps_2021-06-01_edited.png')
 with c13:
     st.image('png_edited_output/maps_2022-06-01_edited.png')
+
+st.write(
+    """
+    Decreasing of bad vegetation area on Sulawesi.
+    """
+)
 
 st.write(
     """
@@ -298,6 +359,12 @@ with c13:
 
 st.write(
     """
+    There is no significant change
+    """
+)
+
+st.write(
+    """
     **August**
     """
 )
@@ -309,6 +376,13 @@ with c12:
     st.image('png_edited_output/maps_2021-08-01_edited.png')
 with c13:
     st.image('png_edited_output/maps_2022-08-01_edited.png')
+
+
+st.write(
+    """
+    On Papua, now it's getting better because has more good vegetation area.
+    """
+)
 
 st.write(
     """
@@ -326,6 +400,12 @@ with c13:
 
 st.write(
     """
+    On Papua, same with August, now it's getting better because has more good vegetation area. On Sumatra same as well.
+    """
+)
+
+st.write(
+    """
     **October**
     """
 )
@@ -337,6 +417,12 @@ with c12:
     st.image('png_edited_output/maps_2021-10-01_edited.png')
 with c13:
     st.image('png_edited_output/maps_2022-10-01_edited.png')
+
+st.write(
+    """
+    Bad vegetation area is rising up on Sumatra.
+    """
+)
 
 st.write(
     """
@@ -354,6 +440,12 @@ with c13:
 
 st.write(
     """
+    Bad vegetation area is increasing on Sumatra, but on Java is decreasing.
+    """
+)
+
+st.write(
+    """
     **December**
     """
 )
@@ -365,6 +457,12 @@ with c12:
     st.image('png_edited_output/maps_2021-12-01_edited.png')
 with c13:
     st.image('png_edited_output/maps_2022-12-01_edited.png')
+
+st.write(
+    """
+    On Sumatra, bad vegetation area is increasing.
+    """
+)
 
 
 
