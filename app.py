@@ -115,6 +115,7 @@ st.write(
     """
     \n
     \n
+    \n
     """
 )
 
@@ -128,6 +129,7 @@ st.write(
 
 st.write(
     """
+    \n
     \n
     \n
     """
@@ -178,6 +180,7 @@ st.write(
     """
     \n
     \n
+    \n
     """
 )
 
@@ -198,6 +201,7 @@ st.write(
 
 st.write(
     """
+    \n
     \n
     \n
     """
@@ -467,7 +471,13 @@ st.write(
 
 
 
-
+st.write(
+    """
+    \n
+    \n
+    \n
+    """
+)
 
 
 c1, c2 = st.columns(2)
