@@ -229,6 +229,14 @@ st.write(
 
 st.write(
     """
+    \n
+    \n
+    \n
+    """
+)
+
+st.write(
+    """
     **January**
     """
 )
@@ -244,6 +252,14 @@ with c13:
 st.write(
     """
     Getting closer to the present, Sumatra and Sulawesi archipelago has more area with bad vegetation. But Java and Papua has fewer.
+    """
+)
+
+st.write(
+    """
+    \n
+    \n
+    \n
     """
 )
 
@@ -269,6 +285,14 @@ st.write(
 
 st.write(
     """
+    \n
+    \n
+    \n
+    """
+)
+
+st.write(
+    """
     **March**
     """
 )
@@ -284,6 +308,14 @@ with c13:
 st.write(
     """
     Nothing significant change, except on Sumatra archipelago.
+    """
+)
+
+st.write(
+    """
+    \n
+    \n
+    \n
     """
 )
 
@@ -309,6 +341,14 @@ st.write(
 
 st.write(
     """
+    \n
+    \n
+    \n
+    """
+)
+
+st.write(
+    """
     **May**
     """
 )
@@ -324,6 +364,14 @@ with c13:
 st.write(
     """
     On Sulawesi archipelago, it has more area with bad vegetation.
+    """
+)
+
+st.write(
+    """
+    \n
+    \n
+    \n
     """
 )
 
@@ -349,6 +397,14 @@ st.write(
 
 st.write(
     """
+    \n
+    \n
+    \n
+    """
+)
+
+st.write(
+    """
     **July**
     """
 )
@@ -364,6 +420,14 @@ with c13:
 st.write(
     """
     There is no significant change
+    """
+)
+
+st.write(
+    """
+    \n
+    \n
+    \n
     """
 )
 
@@ -390,6 +454,14 @@ st.write(
 
 st.write(
     """
+    \n
+    \n
+    \n
+    """
+)
+
+st.write(
+    """
     **September**
     """
 )
@@ -405,6 +477,14 @@ with c13:
 st.write(
     """
     On Papua, same with August, now it's getting better because has more good vegetation area. On Sumatra same as well.
+    """
+)
+
+st.write(
+    """
+    \n
+    \n
+    \n
     """
 )
 
@@ -430,6 +510,14 @@ st.write(
 
 st.write(
     """
+    \n
+    \n
+    \n
+    """
+)
+
+st.write(
+    """
     **November**
     """
 )
@@ -445,6 +533,14 @@ with c13:
 st.write(
     """
     Bad vegetation area is increasing on Sumatra, but on Java is decreasing.
+    """
+)
+
+st.write(
+    """
+    \n
+    \n
+    \n
     """
 )
 
